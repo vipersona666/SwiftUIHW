@@ -16,14 +16,13 @@ struct InfoRow: View {
             post.image
                 .resizable()
                 .scaledToFill()
-                //.clipShape(Circle())
+                .cornerRadius(6)
                 .frame(width: 60, height: 60)
                 .padding(.leading, 30)
                 .padding(.trailing, 40)
                 
             Text(post.subtype)
                 .font(.headline)
-                
                 
             Spacer()
         }

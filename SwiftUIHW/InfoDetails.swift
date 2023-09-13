@@ -17,6 +17,7 @@ struct InfoDetails: View {
                 .resizable()
                 .scaledToFit()
                 //.shadow(radius: 10)
+                .cornerRadius(12)
                 .padding(.leading, 20)
                 .padding(.trailing, 20)
             
@@ -37,10 +38,8 @@ struct InfoDetails: View {
                 Text(post.description)
             }
             .padding()
-            
         }
         .navigationTitle(post.subtype)
-        //.background(Color.)
     }
 }
 

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
+        
         NavigationView {
             List(Post.posts){post in
                 NavigationLink{
