@@ -11,6 +11,12 @@
 		75FA47852AB1A7E000A6F582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47842AB1A7E000A6F582 /* ContentView.swift */; };
 		75FA47872AB1A7E200A6F582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA47862AB1A7E200A6F582 /* Assets.xcassets */; };
 		75FA478A2AB1A7E200A6F582 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA47892AB1A7E200A6F582 /* Preview Assets.xcassets */; };
+		75FA47912AB1A80300A6F582 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47902AB1A80300A6F582 /* Post.swift */; };
+		75FA47932AB1E3C800A6F582 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47922AB1E3C800A6F582 /* InfoView.swift */; };
+		75FA47952AB1E77300A6F582 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47942AB1E77300A6F582 /* InfoRow.swift */; };
+		75FA47972AB1EA2E00A6F582 /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47962AB1EA2E00A6F582 /* InfoDetails.swift */; };
+		75FA47992AB20DBE00A6F582 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA47982AB20DBE00A6F582 /* HelloView.swift */; };
+		75FA479B2AB20F6E00A6F582 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA479A2AB20F6E00A6F582 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		75FA47842AB1A7E000A6F582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75FA47862AB1A7E200A6F582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75FA47892AB1A7E200A6F582 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75FA47902AB1A80300A6F582 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		75FA47922AB1E3C800A6F582 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		75FA47942AB1E77300A6F582 /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		75FA47962AB1EA2E00A6F582 /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
+		75FA47982AB20DBE00A6F582 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		75FA479A2AB20F6E00A6F582 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				75FA47822AB1A7E000A6F582 /* SwiftUIHWApp.swift */,
 				75FA47842AB1A7E000A6F582 /* ContentView.swift */,
+				75FA479A2AB20F6E00A6F582 /* SettingsView.swift */,
+				75FA47982AB20DBE00A6F582 /* HelloView.swift */,
+				75FA47922AB1E3C800A6F582 /* InfoView.swift */,
+				75FA47942AB1E77300A6F582 /* InfoRow.swift */,
+				75FA47962AB1EA2E00A6F582 /* InfoDetails.swift */,
 				75FA47862AB1A7E200A6F582 /* Assets.xcassets */,
 				75FA47882AB1A7E200A6F582 /* Preview Content */,
+				75FA47902AB1A80300A6F582 /* Post.swift */,
 			);
 			path = SwiftUIHW;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75FA47932AB1E3C800A6F582 /* InfoView.swift in Sources */,
+				75FA479B2AB20F6E00A6F582 /* SettingsView.swift in Sources */,
+				75FA47912AB1A80300A6F582 /* Post.swift in Sources */,
 				75FA47852AB1A7E000A6F582 /* ContentView.swift in Sources */,
 				75FA47832AB1A7E000A6F582 /* SwiftUIHWApp.swift in Sources */,
+				75FA47972AB1EA2E00A6F582 /* InfoDetails.swift in Sources */,
+				75FA47992AB20DBE00A6F582 /* HelloView.swift in Sources */,
+				75FA47952AB1E77300A6F582 /* InfoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
