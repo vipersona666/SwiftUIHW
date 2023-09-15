@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct Post: Identifiable{
+    
     let id: Int
     let type: String
     let subtype: String
