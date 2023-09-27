@@ -8,23 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage ("useTitle") var useTitle = false
+    @AppStorage ("useRowHeight") var useRowHeight = 40.0
+    @State private var titleOn = false
+    @State private var rowHeight = 40.0
     var body: some View {
+        
         TabView(){
-            InfoView()
+            InfoView(rowHeight: useRowHeight, titleOn: useTitle)
                 .tabItem {
                     Label ("InfoView", systemImage: "bicycle")
-
                 }
             HelloView()
                 .tabItem {
                     Label("Hello", systemImage: "face.smiling")
                 }
-            SettingsView()
+            SettingsView(titleOn: $titleOn, rowHeight: $useRowHeight, progress: useRowHeight)
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
         }
-        .padding()
+       
     }
 }
 
