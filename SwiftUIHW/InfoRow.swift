@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct InfoRow: View {
-    
+    var rowHeight: Double
     var post: Post
     
     var body: some View {
@@ -25,12 +25,13 @@ struct InfoRow: View {
                 .font(.headline)
                 
             Spacer()
+               .frame(height: CGFloat(rowHeight))
         }
     }
 }
 
 struct InfoRow_Previews: PreviewProvider {
     static var previews: some View {
-        InfoRow(post: Post.posts[0])
+        InfoRow(rowHeight: 40, post: Post.posts[0])
     }
 }
